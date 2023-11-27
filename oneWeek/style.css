@@ -1,0 +1,9 @@
+pre {
+color: black;
+background-color: yellow;
+}
+p.highlight {
+    background-color: burlywood;
+    padding: 10px;
+    border:  thick dotted black;
+} 
