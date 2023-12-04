@@ -2,8 +2,8 @@ pre {
 color: black;
 background-color: yellow;
 }
-p.highlight {
+.highlight {
     background-color: burlywood;
-    padding: 10px;
-    border:  thick dotted black;
+    padding: 15px;
+    border: thin dotted black;
 } 

@@ -1,3 +1,2 @@
 # webdesign
-Education project
-# one week
+# Education project

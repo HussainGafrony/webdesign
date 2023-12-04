@@ -1,0 +1,27 @@
+body {
+    margin-left: 25px;
+}
+
+ul li  {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: square;
+    height: 25px;
+}
+
+.custem {
+    display: inline-block;
+    margin-right: 10px;
+    shape-margin: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+ol li {
+    height: 30px;
+}
+
+img {
+    float: right;
+    width: 500px;
+    margin-right: 20%;
+}
