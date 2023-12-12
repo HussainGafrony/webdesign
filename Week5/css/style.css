@@ -1,0 +1,11 @@
+/* #x ul li.active p.ss h1 #d {
+    color: cadetblue;
+} */
+#x, ul li.active p.ss h1 #d, a .row {
+    color:red;
+    /* background-color: aqua; */
+  }
+
+.table .hamad p a.ss .active ul.dev li a,#ss {
+    color: orange ;
+}
