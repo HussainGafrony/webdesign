@@ -1,0 +1,73 @@
+/* div { */
+/* width: 400px;
+    height: 400px;
+    background-color: orange;
+    border-radius: 50%;
+    line-height: 400px;
+    text-align: center; */
+/* display: flex; */
+/* align-items: center; */
+/* justify-content: center; */
+/* } */
+
+/* div:hover {
+    color: white;
+    background-color: rosybrown;
+    border: 1px dashed black;
+} */
+
+/* 
+h2 {
+    color: black;
+    border: 1px;
+    background-color: red;
+    border-style: dashed dotted ridge;
+    /* border-color: blueviolet; 
+} */
+
+
+/* div {
+    background-color: orange;
+    text-align: center;
+} */
+/* 
+div {
+    background-color: rosybrown;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px dashed black;
+} */
+
+
+
+/* h2.lor { */
+    /* display: inline; */
+    /* direction: rtl; */
+        /* text-align: right; */
+    /* display: inline; */
+/* } */
+/* p { */
+    /* start text for another space */
+    /* text-indent: 50px;
+    letter-spacing: 1.2px;
+    line-height: 1.8;
+    word-spacing: 8px;
+    white-space : pre ; */
+    /* width: 400px; */
+    /* handel text inparagra */
+    /* text-align: justify; */
+    /* text-align-last: justify; */
+/* } */
+
+/* img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+} */
+
+/* span {
+    text-transform: capitalize;
+ */
+/* } */

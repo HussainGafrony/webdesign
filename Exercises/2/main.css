@@ -1,0 +1,200 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+h1.title {
+    text-align: center;
+    margin: 0;
+}
+
+p.subtitle {
+    text-align: center;
+    font-weight: 600;
+}
+
+p strong {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0px 4px 2px 4px;
+    margin-left: 3px;
+}
+
+/* Border Style For All Page */
+/* .card,
+.sidCard,
+.navCard,
+.footer {
+    border-radius: 8px;
+} */
+.PostCard {
+    margin-top: 20px;
+    width: 48%;
+    margin-right: 3%;
+
+}
+
+.card {
+    overflow: hidden;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    height: 220px;
+    width: 100%;
+}
+
+.card .card-content {
+
+    text-align: justify;
+    padding: 0px 30px 10px 20px;
+}
+
+.card .card-content h1 {
+    font-weight: 500;
+    margin: 0;
+}
+
+.card .card-content h3 {
+    font-weight: 200;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card .card-content h3 span {
+    color: grey;
+    font-weight: 100;
+}
+
+.card .card-content p.post {
+    text-transform: capitalize;
+}
+
+.button-container {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container p {
+    padding: 8px 0px 0px;
+    margin: 0px;
+}
+
+.button-container p.customIcon {
+    padding: 8px 16px;
+    border: 2px solid rgba(189, 182, 182, 0.2);
+    background-color: white;
+    color: black;
+}
+
+.button-container p strong {
+    font-weight: 800;
+    background-color: black;
+    color: white;
+    padding: 2px 8px;
+    margin-left: 3px;
+}
+
+.button-container p strong.radio {
+    border-radius: 50%;
+}
+
+.button-container p.customIcon::after {
+    content: '\00a\2192';
+    font-weight: 500;
+}
+
+.PostCard2 {
+    margin-top: 20px;
+    width: 48%;
+}
+
+.navCard {
+    overflow: hidden;
+
+    width: 35%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navCard img {
+    height: 200px;
+}
+
+.navCard .card-content {
+    padding: 0px 30px 4px 20px;
+}
+
+.navCard .card-content h1 {
+    height: 25px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.sidCard {
+    width: 35%;
+    margin-top: 25px;
+    height: 340px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidCard div.back-color {
+    font-size: larger;
+    padding: 12px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+}
+
+.sidCard img.profile {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    float: left;
+    margin-right: 15px;
+}
+
+.sidCard span {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.sidCard span.bold {
+    font-weight: 600;
+}
+
+.group {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 13px;
+    padding-bottom: 7px;
+}
+
+.footer {
+
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    font-weight: bold;
+    font-size: small;
+    margin-left: 3px;
+    display: inline-block;
+    padding: 0px 4px;
+    background-color: rgba(0, 0, 0, 0.04);
+    color: black;
+    margin-bottom: 10px;
+}
