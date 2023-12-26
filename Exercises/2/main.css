@@ -2,10 +2,37 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 10px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.PostCard {
+    width: 60%;
+    margin-right: 3%;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+
+.PostCard2 {
+    width: 36%;
 }
 
 h1.title {
@@ -23,69 +50,108 @@ p strong {
     color: white;
     margin: 0;
     padding: 0px 4px 2px 4px;
-    margin-left: 3px;
+    margin-left: 1px;
 }
 
-/* Border Style For All Page */
-/* .card,
-.sidCard,
-.navCard,
+/* Class Common traits */
+
+/* Border Style All Class */
+/* .childOne,
+.childTwo,
+.sidOne,
 .footer {
     border-radius: 8px;
 } */
-.PostCard {
-    margin-top: 20px;
-    width: 48%;
-    margin-right: 3%;
 
+.PostCard {
+    position: relative;
 }
 
-.card {
-    overflow: hidden;
-    margin-bottom: 18px;
+.PostCard,
+.PostCard2,
+.sidCard,
+.footer {
+    margin-top: 10px;
+}
+
+.childOne,
+.childTwo,
+.sidCard,
+.sidOne,
+.footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.card img {
-    height: 220px;
+.childOne,
+.childTwo {
+    position: absolute;
+    padding-bottom: 10px;
+}
+
+.childOne,
+.childTwo,
+.sidOne {
+    overflow: hidden;
+
+}
+
+
+.childTwo {
+    top: 52%;
+}
+
+.childOne,
+.childTwo,
+.card-background {
+    height: 50%;
     width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
-.card .card-content {
 
+.childOne .card-background {
+    background-image: url('./img/M.jpeg');
+}
+
+.childTwo .card-background {
+    background-image: url('./img/Girl.jpeg');
+}
+
+
+.card-content {
     text-align: justify;
-    padding: 0px 30px 10px 20px;
+    padding: 0px 20px;
+
 }
 
-.card .card-content h1 {
+.card-content h1 {
     font-weight: 500;
-    margin: 0;
 }
 
-.card .card-content h3 {
+.card-content h3 {
     font-weight: 200;
-    margin: 0px;
-    padding: 0px;
 }
 
-.card .card-content h3 span {
+.card-content h3 span {
     color: grey;
     font-weight: 100;
 }
 
-.card .card-content p.post {
+.card-content p.post {
     text-transform: capitalize;
 }
 
 .button-container {
-    margin: 0px;
-    padding: 0px;
     display: flex;
     justify-content: space-between;
+    /* background-color: red; */
+    /* show center line */
 }
 
 .button-container p {
-    padding: 8px 0px 0px;
+    /* center text as => Text Button */
+    align-self: center;
     margin: 0px;
 }
 
@@ -97,11 +163,7 @@ p strong {
 }
 
 .button-container p strong {
-    font-weight: 800;
-    background-color: black;
-    color: white;
     padding: 2px 8px;
-    margin-left: 3px;
 }
 
 .button-container p strong.radio {
@@ -110,46 +172,35 @@ p strong {
 
 .button-container p.customIcon::after {
     content: '\00a\2192';
-    font-weight: 500;
+    font-weight: 50.0;
 }
 
-.PostCard2 {
-    margin-top: 20px;
-    width: 48%;
+.sidOne {
+    /* width: 100%; */
+    /* height: 80%; */
 }
 
-.navCard {
-    overflow: hidden;
 
-    width: 35%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+.sid-background {
+    /* background-image: url('./img/Girl.jpeg'); */
+    /* height: 50%; */
+    /* width: 100%; */
+    /* background-size: cover; */
+    /* background-position: center; */
 
-.navCard img {
-    height: 200px;
-}
 
-.navCard .card-content {
-    padding: 0px 30px 4px 20px;
-}
-
-.navCard .card-content h1 {
-    height: 25px;
-    font-weight: 500;
-    margin: 0;
 }
 
 .sidCard {
-    width: 35%;
-    margin-top: 25px;
-    height: 340px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* top: 1000px; */
+    /* bottom: 1000px; */
+    font-size: large;
 }
 
-.sidCard div.back-color {
+.back-color {
     font-size: larger;
     padding: 12px;
-    font-weight: 500;
+    font-weight: 600;
     background-color: rgba(0, 0, 0, 0.04);
     margin-bottom: 20px;
 }
@@ -177,23 +228,16 @@ p strong {
     padding-bottom: 7px;
 }
 
-.footer {
-
-    margin-top: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 .footer ul {
-    list-style: none;
     padding: 0;
 }
 
 .footer ul li {
     font-weight: bold;
-    font-size: small;
-    margin-left: 3px;
+    font-size: large;
+    margin-left: 6px;
     display: inline-block;
-    padding: 0px 4px;
+    padding: 0px 10px 10px;
     background-color: rgba(0, 0, 0, 0.04);
     color: black;
     margin-bottom: 10px;
