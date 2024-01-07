@@ -89,9 +89,6 @@ p strong {
 
 }
 
-.childOne {
-    /* height: 100%; */
-}
 .childTwo {
     top: 60%;
 }
@@ -109,11 +106,12 @@ p strong {
     background-image: url('./img/M.jpeg');
 }
 
-.childOne .card-background:hover {
+.card-background:hover {
     position: relative;
 }
 
-.childOne .card-background:hover .inside_Image {
+.card-background:hover
+ .inside_Image {
     visibility: visible;
 
 }

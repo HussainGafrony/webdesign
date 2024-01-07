@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+/* Main page */
+.main {
+    width: 100%;
+    /* background-color: #607d8b; */
+}
+
+
+/* Nav */
+.nav {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_caption {
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    margin: 0 10px;
+}
+
+/* Part _1 */
+.part-1 {
+    position: relative;
+    /* background-color: aqua; */
+}
+
+.main-img {
+    margin-top: 1px;
+    margin-left: 8%;
+}
+
+.caption-inside-bac-img {
+    position: absolute;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    left: 10%;
+    bottom: 0;
+}
+
+/* Part _2 */
+.part-2 {
+    /* background-color: aquamarine; */
+    margin-top: 2%;
+    margin-left: 20%;
+    width: 60%;
+}
+
+/* Section _1 */
+.section-one {
+    /* display: none; */
+    /* background-color: antiquewhite; */
+}
+
+.section-one-img {
+    margin-right: 2%;
+    float: left;
+    width: 50%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./img/cake_apple.jpeg');
+}
+
+.section-three-caption,
+.section-two-caption,
+.section-one-caption {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.section-one-subtitle {
+    font-size: 20px;
+    margin-top: 3%;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.section-one-desc-one {
+    letter-spacing: 2px;
+    font-size: 18px;
+    word-spacing: 5px;
+}
+
+.section-one-desc-two {
+    margin-top: 3%;
+    letter-spacing: 4px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+    word-spacing: 5px;
+}
+
+/* Section _2 */
+.section-two {
+    /* display: none; */
+    margin-top: 10%;
+    /* background-color: #607d8b; */
+}
+
+.section-two-img {
+    float: right;
+    width: 50%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./img/fish.jpeg');
+}
+
+.menu-category {
+    letter-spacing: 4px;
+    font-size: 18px;
+    word-spacing: 5px;
+}
+
+.descr-category {
+    letter-spacing: 3px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+    word-spacing: 2px;
+}
+
+/* Section _3  */
+.section-three {
+    margin-top: 8%;
+}
+
+.section-three-caption {
+    text-align: start;
+}
+
+.section-three-subtitle {
+    font-size: 16px;
+    margin-top: 4%;
+    letter-spacing: 4px;
+}
+
+.section-three-contact,
+.section-three-address {
+    color: #607d8b;
+    letter-spacing: 3px;
+}
+
+.section-three-contact {
+    color: #000;
+}
+
+/* Section _4  */
+.section-four {
+    /* background-color: rebeccapurple; */
+}
+
+.section-four-input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 99%;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 16px 0px;
+    margin-top: 8px;
+}
+
+.section-four-button {
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 3%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.06);
+}
+/* Part _3 */
+footer {
+    margin-top: 4%;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.06);
+    padding: 60px 0px;
+}
