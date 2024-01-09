@@ -1,0 +1,123 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Main */
+.main {
+    background-color: #f8f1ea;
+    width: 100%;
+}
+
+/* Layer 1 */
+/* Part one */
+.part-one {
+    height: 12vh;
+    width: 100%;
+    text-align: center;
+}
+
+/* Section One */
+.section-one-caption {
+    padding-top: 1%;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: #808000;
+    text-underline-offset: 12px;
+}
+
+.section-one-subtitle {
+    color: #808000;
+}
+
+/* Layer 2 */
+/* Part two */
+.part-two {
+    width: 100%;
+    height: 80vh;
+    background-color: #f7ebdb;
+    padding-top: 4%;
+}
+
+/* Section two */
+.section-two-img {
+    width: 70%;
+    margin-left: 14%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #808000 solid;
+    border-radius: 10px;
+    border-width: 3px;
+    background-image: url('./img/persons.jpeg');
+}
+
+.section-two-caption {
+    width: 60%;
+    color: #808000;
+    text-align: center;
+    margin-left: 18%;
+}
+
+/* Layer 1 */
+/* Part three */
+.part-three {
+    /* width: 100%; */
+    /* background-color: aquamarine; */
+}
+
+/* Section Three  */
+.part-three .section-one-caption {
+    padding-top: 3%;
+    text-decoration: none;
+    text-align: center;
+}
+.section-three-sub-caption,
+.section-three-subtitle,
+.section-three-divider , 
+.section-three-items{
+    width: 65%;
+}
+.section-three-items{
+    margin-left: 16%;
+}
+ul li {
+    margin-top: 3%;
+    list-style-type: none;
+    color: #808000;
+    font-size: large;
+    text-align: start;
+    font-weight:500;
+}
+.section-three-subtitle,
+.section-three-divider,
+.section-three-sub-caption {
+    margin-left: 18%;
+    color: #808000;
+}
+.section-three-divider {
+    margin-top: 3%;
+    border-top: 0.5px solid #808000;
+}
+.section-three-subtitle{
+    text-align: justify;
+}
+.section-three-sub-caption{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+
+/* Footer */
+/* Layer 3 */
+footer {
+    color: #808000;
+    /* margin: 1%; */
+    padding: 1%;
+    text-align: center;
+    background-color: #f7ebdb;
+}
+footer strong {
+    color:red;
+}
