@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0,0.1 );
+}
+
+input,
+button {
+    display: block;
+    margin: auto;
+    padding: .5% 1%;
+    margin-top: 1%;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+
+}
+
+input {
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+
+button {
+    background-color: white;
+    cursor: pointer;
+}
+
+#result,
+#error {
+    text-align: center;
+    font-size: 25px;
+    color: green;
+}
+
+#error {
+    color: red;
+}
+
+#opertion {
+    font-size: 25px;
+    margin:0 2 0 2;
+    text-align: center;
+}
