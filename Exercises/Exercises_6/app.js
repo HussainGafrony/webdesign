@@ -3,8 +3,8 @@
 function Calculation() {
     let num1 = parseFloat(document.getElementById("num1").value);
     let op = document.getElementById("op").value;
-    let num2Input = document.getElementById("num2");
-    let num2 = parseFloat(num2Input.value);
+    let num2 = parseFloat(document.getElementById("num2").value);
+    // let num2 = parseFloat(num2Input.value);
     let error = document.getElementById("error");
     let result = document.getElementById("result");
 
