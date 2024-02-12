@@ -10,29 +10,28 @@ increase.addEventListener('input', () => {
     }
 });
 
-
 function AddNumber() {
     let start = parseInt(document.getElementById('start').value);
     let end = parseInt(document.getElementById('end').value);
-    let increase = parseInt(increase.value);
-    let number_type = number_type.value;
+    let increase_2 = parseInt(increase.value);
+    let number_type_2 = number_type.value;
     let error = document.getElementById('error');
     let result = document.getElementById('result');
     result.innerHTML = '';
-    if (isNaN(start) && isNaN(end) && isNaN(increase)) {
+    if (isNaN(start) && isNaN(end) && isNaN(increase_2)) {
         error.innerHTML = 'please add number';
         return;
     } else {
         error.innerHTML = '';
     }
 
-    for (let i = start; i <= end; i += increase) {
+    for (let i = start; i <= end; i += increase_2) {
 
-        if (number_type == 'even') {
+        if (number_type_2 == 'even') {
             if (i % 2 === 0) {
                 result.innerHTML += i + '\n';
             }
-        } else if (number_type == 'odd') {
+        } else if (number_type_2 == 'odd') {
             if (i % 2 !== 0) {
                 result.innerHTML += i + '\n';
             }
@@ -40,7 +39,6 @@ function AddNumber() {
             result.innerHTML += i + '\n';
 
         }
-
     }
 
     document.getElementById('start').value = '';
